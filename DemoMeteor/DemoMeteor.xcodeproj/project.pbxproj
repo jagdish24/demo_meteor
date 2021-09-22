@@ -1,0 +1,755 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9AFC3AA26FAE54B0008592A /* CoreDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFC3A926FAE54B0008592A /* CoreDataHelper.swift */; };
+		E9AFC3AC26FAE9B90008592A /* MeteorStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFC3AB26FAE9B90008592A /* MeteorStorage.swift */; };
+		E9AFC3AF26FAE9EA0008592A /* meteordata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E9AFC3AD26FAE9EA0008592A /* meteordata.xcdatamodeld */; };
+		E9AFC3B426FB35900008592A /* MeteorVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFC3B326FB35900008592A /* MeteorVCTest.swift */; };
+		E9AFC3B626FB451F0008592A /* FavoriteVCTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9AFC3B526FB451F0008592A /* FavoriteVCTest.swift */; };
+		E9C4480326F8BC6B00F2C6D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4480226F8BC6B00F2C6D5 /* AppDelegate.swift */; };
+		E9C4480526F8BC6B00F2C6D5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4480426F8BC6B00F2C6D5 /* SceneDelegate.swift */; };
+		E9C4480726F8BC6B00F2C6D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4480626F8BC6B00F2C6D5 /* ViewController.swift */; };
+		E9C4480A26F8BC6B00F2C6D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C4480826F8BC6B00F2C6D5 /* Main.storyboard */; };
+		E9C4480C26F8BC6C00F2C6D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C4480B26F8BC6C00F2C6D5 /* Assets.xcassets */; };
+		E9C4480F26F8BC6C00F2C6D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9C4480D26F8BC6C00F2C6D5 /* LaunchScreen.storyboard */; };
+		E9C4481A26F8BC6C00F2C6D5 /* DemoMeteorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4481926F8BC6C00F2C6D5 /* DemoMeteorTests.swift */; };
+		E9C4482526F8BC6C00F2C6D5 /* DemoMeteorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4482426F8BC6C00F2C6D5 /* DemoMeteorUITests.swift */; };
+		E9C4483A26F8C44000F2C6D5 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4483926F8C44000F2C6D5 /* TabBarViewController.swift */; };
+		E9C4483C26F8C45900F2C6D5 /* MeteorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4483B26F8C45900F2C6D5 /* MeteorVC.swift */; };
+		E9C4483E26F8C46800F2C6D5 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4483D26F8C46800F2C6D5 /* FavoriteVC.swift */; };
+		E9C4484026F8C62200F2C6D5 /* StoryBoardManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4483F26F8C62200F2C6D5 /* StoryBoardManager.swift */; };
+		E9C4484226F8C64500F2C6D5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4484126F8C64500F2C6D5 /* Extensions.swift */; };
+		E9C4484626F8C6E800F2C6D5 /* MeteorDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C4484526F8C6E700F2C6D5 /* MeteorDetailVC.swift */; };
+		E9C4484826F8C7BA00F2C6D5 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9C4484726F8C7BA00F2C6D5 /* Colors.xcassets */; };
+		E9DC588326F9EA1A00C8296B /* MeteorListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC588226F9EA1A00C8296B /* MeteorListView.swift */; };
+		E9DC588526F9EA2100C8296B /* MeteorListView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9DC588426F9EA2100C8296B /* MeteorListView.xib */; };
+		E9DC588726F9EA9800C8296B /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC588626F9EA9800C8296B /* Models.swift */; };
+		E9DC588926F9FD2900C8296B /* RequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC588826F9FD2900C8296B /* RequestManager.swift */; };
+		E9DC588B26FA00D400C8296B /* MeteorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DC588A26FA00D400C8296B /* MeteorViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9C4481626F8BC6C00F2C6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9C447F726F8BC6B00F2C6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C447FE26F8BC6B00F2C6D5;
+			remoteInfo = DemoMeteor;
+		};
+		E9C4482126F8BC6C00F2C6D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9C447F726F8BC6B00F2C6D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9C447FE26F8BC6B00F2C6D5;
+			remoteInfo = DemoMeteor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9AFC3A926FAE54B0008592A /* CoreDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataHelper.swift; sourceTree = "<group>"; };
+		E9AFC3AB26FAE9B90008592A /* MeteorStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorStorage.swift; sourceTree = "<group>"; };
+		E9AFC3AE26FAE9EA0008592A /* meteordata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = meteordata.xcdatamodel; sourceTree = "<group>"; };
+		E9AFC3B226FAFC390008592A /* meteordata 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "meteordata 2.xcdatamodel"; sourceTree = "<group>"; };
+		E9AFC3B326FB35900008592A /* MeteorVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorVCTest.swift; sourceTree = "<group>"; };
+		E9AFC3B526FB451F0008592A /* FavoriteVCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVCTest.swift; sourceTree = "<group>"; };
+		E9C447FF26F8BC6B00F2C6D5 /* DemoMeteor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMeteor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C4480226F8BC6B00F2C6D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9C4480426F8BC6B00F2C6D5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9C4480626F8BC6B00F2C6D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E9C4480926F8BC6B00F2C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9C4480B26F8BC6C00F2C6D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9C4480E26F8BC6C00F2C6D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9C4481026F8BC6C00F2C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C4481526F8BC6C00F2C6D5 /* DemoMeteorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMeteorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C4481926F8BC6C00F2C6D5 /* DemoMeteorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMeteorTests.swift; sourceTree = "<group>"; };
+		E9C4481B26F8BC6C00F2C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C4482026F8BC6C00F2C6D5 /* DemoMeteorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoMeteorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9C4482426F8BC6C00F2C6D5 /* DemoMeteorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoMeteorUITests.swift; sourceTree = "<group>"; };
+		E9C4482626F8BC6C00F2C6D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9C4483926F8C44000F2C6D5 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E9C4483B26F8C45900F2C6D5 /* MeteorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorVC.swift; sourceTree = "<group>"; };
+		E9C4483D26F8C46800F2C6D5 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		E9C4483F26F8C62200F2C6D5 /* StoryBoardManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoardManager.swift; sourceTree = "<group>"; };
+		E9C4484126F8C64500F2C6D5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E9C4484526F8C6E700F2C6D5 /* MeteorDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorDetailVC.swift; sourceTree = "<group>"; };
+		E9C4484726F8C7BA00F2C6D5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		E9DC588226F9EA1A00C8296B /* MeteorListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorListView.swift; sourceTree = "<group>"; };
+		E9DC588426F9EA2100C8296B /* MeteorListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MeteorListView.xib; sourceTree = "<group>"; };
+		E9DC588626F9EA9800C8296B /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		E9DC588826F9FD2900C8296B /* RequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestManager.swift; sourceTree = "<group>"; };
+		E9DC588A26FA00D400C8296B /* MeteorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeteorViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9C447FC26F8BC6B00F2C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C4481226F8BC6C00F2C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C4481D26F8BC6C00F2C6D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9AFC3A826FAE5360008592A /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFC3A926FAE54B0008592A /* CoreDataHelper.swift */,
+				E9AFC3AB26FAE9B90008592A /* MeteorStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		E9C447F626F8BC6B00F2C6D5 = {
+			isa = PBXGroup;
+			children = (
+				E9C4480126F8BC6B00F2C6D5 /* DemoMeteor */,
+				E9C4481826F8BC6C00F2C6D5 /* DemoMeteorTests */,
+				E9C4482326F8BC6C00F2C6D5 /* DemoMeteorUITests */,
+				E9C4480026F8BC6B00F2C6D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9C4480026F8BC6B00F2C6D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C447FF26F8BC6B00F2C6D5 /* DemoMeteor.app */,
+				E9C4481526F8BC6C00F2C6D5 /* DemoMeteorTests.xctest */,
+				E9C4482026F8BC6C00F2C6D5 /* DemoMeteorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9C4480126F8BC6B00F2C6D5 /* DemoMeteor */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4480226F8BC6B00F2C6D5 /* AppDelegate.swift */,
+				E9C4480426F8BC6B00F2C6D5 /* SceneDelegate.swift */,
+				E9C4480626F8BC6B00F2C6D5 /* ViewController.swift */,
+				E9C4480826F8BC6B00F2C6D5 /* Main.storyboard */,
+				E9C4480D26F8BC6C00F2C6D5 /* LaunchScreen.storyboard */,
+				E9C4481026F8BC6C00F2C6D5 /* Info.plist */,
+				E9C4483826F8C40F00F2C6D5 /* Controllers */,
+				E9C4483226F8BD9C00F2C6D5 /* DesignPatterns */,
+				E9C8E43926FA533D000C3A76 /* Resources */,
+			);
+			path = DemoMeteor;
+			sourceTree = "<group>";
+		};
+		E9C4481826F8BC6C00F2C6D5 /* DemoMeteorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4481926F8BC6C00F2C6D5 /* DemoMeteorTests.swift */,
+				E9C4481B26F8BC6C00F2C6D5 /* Info.plist */,
+				E9AFC3B326FB35900008592A /* MeteorVCTest.swift */,
+				E9AFC3B526FB451F0008592A /* FavoriteVCTest.swift */,
+			);
+			path = DemoMeteorTests;
+			sourceTree = "<group>";
+		};
+		E9C4482326F8BC6C00F2C6D5 /* DemoMeteorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4482426F8BC6C00F2C6D5 /* DemoMeteorUITests.swift */,
+				E9C4482626F8BC6C00F2C6D5 /* Info.plist */,
+			);
+			path = DemoMeteorUITests;
+			sourceTree = "<group>";
+		};
+		E9C4483226F8BD9C00F2C6D5 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				E9AFC3A826FAE5360008592A /* Storage */,
+				E9C4483726F8C40000F2C6D5 /* Models */,
+				E9C4483626F8C3F800F2C6D5 /* Views */,
+				E9C4483526F8C3EA00F2C6D5 /* ViewModels */,
+				E9C4483426F8C3E300F2C6D5 /* Manager */,
+				E9C4483326F8C3DC00F2C6D5 /* Common */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		E9C4483326F8C3DC00F2C6D5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4484126F8C64500F2C6D5 /* Extensions.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E9C4483426F8C3E300F2C6D5 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4483F26F8C62200F2C6D5 /* StoryBoardManager.swift */,
+				E9DC588826F9FD2900C8296B /* RequestManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		E9C4483526F8C3EA00F2C6D5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC588A26FA00D400C8296B /* MeteorViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E9C4483626F8C3F800F2C6D5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC588226F9EA1A00C8296B /* MeteorListView.swift */,
+				E9DC588426F9EA2100C8296B /* MeteorListView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E9C4483726F8C40000F2C6D5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E9DC588626F9EA9800C8296B /* Models.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E9C4483826F8C40F00F2C6D5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4483926F8C44000F2C6D5 /* TabBarViewController.swift */,
+				E9C4483B26F8C45900F2C6D5 /* MeteorVC.swift */,
+				E9C4484526F8C6E700F2C6D5 /* MeteorDetailVC.swift */,
+				E9C4483D26F8C46800F2C6D5 /* FavoriteVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E9C8E43926FA533D000C3A76 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E9C4480B26F8BC6C00F2C6D5 /* Assets.xcassets */,
+				E9C4484726F8C7BA00F2C6D5 /* Colors.xcassets */,
+				E9AFC3AD26FAE9EA0008592A /* meteordata.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9C447FE26F8BC6B00F2C6D5 /* DemoMeteor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C4482926F8BC6C00F2C6D5 /* Build configuration list for PBXNativeTarget "DemoMeteor" */;
+			buildPhases = (
+				E9C447FB26F8BC6B00F2C6D5 /* Sources */,
+				E9C447FC26F8BC6B00F2C6D5 /* Frameworks */,
+				E9C447FD26F8BC6B00F2C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMeteor;
+			productName = DemoMeteor;
+			productReference = E9C447FF26F8BC6B00F2C6D5 /* DemoMeteor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9C4481426F8BC6C00F2C6D5 /* DemoMeteorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C4482C26F8BC6C00F2C6D5 /* Build configuration list for PBXNativeTarget "DemoMeteorTests" */;
+			buildPhases = (
+				E9C4481126F8BC6C00F2C6D5 /* Sources */,
+				E9C4481226F8BC6C00F2C6D5 /* Frameworks */,
+				E9C4481326F8BC6C00F2C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C4481726F8BC6C00F2C6D5 /* PBXTargetDependency */,
+			);
+			name = DemoMeteorTests;
+			productName = DemoMeteorTests;
+			productReference = E9C4481526F8BC6C00F2C6D5 /* DemoMeteorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9C4481F26F8BC6C00F2C6D5 /* DemoMeteorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9C4482F26F8BC6C00F2C6D5 /* Build configuration list for PBXNativeTarget "DemoMeteorUITests" */;
+			buildPhases = (
+				E9C4481C26F8BC6C00F2C6D5 /* Sources */,
+				E9C4481D26F8BC6C00F2C6D5 /* Frameworks */,
+				E9C4481E26F8BC6C00F2C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C4482226F8BC6C00F2C6D5 /* PBXTargetDependency */,
+			);
+			name = DemoMeteorUITests;
+			productName = DemoMeteorUITests;
+			productReference = E9C4482026F8BC6C00F2C6D5 /* DemoMeteorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9C447F726F8BC6B00F2C6D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E9C447FE26F8BC6B00F2C6D5 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					E9C4481426F8BC6C00F2C6D5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E9C447FE26F8BC6B00F2C6D5;
+					};
+					E9C4481F26F8BC6C00F2C6D5 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = E9C447FE26F8BC6B00F2C6D5;
+					};
+				};
+			};
+			buildConfigurationList = E9C447FA26F8BC6B00F2C6D5 /* Build configuration list for PBXProject "DemoMeteor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9C447F626F8BC6B00F2C6D5;
+			productRefGroup = E9C4480026F8BC6B00F2C6D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9C447FE26F8BC6B00F2C6D5 /* DemoMeteor */,
+				E9C4481426F8BC6C00F2C6D5 /* DemoMeteorTests */,
+				E9C4481F26F8BC6C00F2C6D5 /* DemoMeteorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9C447FD26F8BC6B00F2C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C4480F26F8BC6C00F2C6D5 /* LaunchScreen.storyboard in Resources */,
+				E9DC588526F9EA2100C8296B /* MeteorListView.xib in Resources */,
+				E9C4484826F8C7BA00F2C6D5 /* Colors.xcassets in Resources */,
+				E9C4480C26F8BC6C00F2C6D5 /* Assets.xcassets in Resources */,
+				E9C4480A26F8BC6B00F2C6D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C4481326F8BC6C00F2C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C4481E26F8BC6C00F2C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9C447FB26F8BC6B00F2C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9DC588726F9EA9800C8296B /* Models.swift in Sources */,
+				E9C4483A26F8C44000F2C6D5 /* TabBarViewController.swift in Sources */,
+				E9C4480726F8BC6B00F2C6D5 /* ViewController.swift in Sources */,
+				E9DC588926F9FD2900C8296B /* RequestManager.swift in Sources */,
+				E9C4480326F8BC6B00F2C6D5 /* AppDelegate.swift in Sources */,
+				E9AFC3AF26FAE9EA0008592A /* meteordata.xcdatamodeld in Sources */,
+				E9DC588B26FA00D400C8296B /* MeteorViewModel.swift in Sources */,
+				E9C4484226F8C64500F2C6D5 /* Extensions.swift in Sources */,
+				E9C4484026F8C62200F2C6D5 /* StoryBoardManager.swift in Sources */,
+				E9C4480526F8BC6B00F2C6D5 /* SceneDelegate.swift in Sources */,
+				E9C4484626F8C6E800F2C6D5 /* MeteorDetailVC.swift in Sources */,
+				E9AFC3AA26FAE54B0008592A /* CoreDataHelper.swift in Sources */,
+				E9C4483E26F8C46800F2C6D5 /* FavoriteVC.swift in Sources */,
+				E9DC588326F9EA1A00C8296B /* MeteorListView.swift in Sources */,
+				E9C4483C26F8C45900F2C6D5 /* MeteorVC.swift in Sources */,
+				E9AFC3AC26FAE9B90008592A /* MeteorStorage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C4481126F8BC6C00F2C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AFC3B426FB35900008592A /* MeteorVCTest.swift in Sources */,
+				E9AFC3B626FB451F0008592A /* FavoriteVCTest.swift in Sources */,
+				E9C4481A26F8BC6C00F2C6D5 /* DemoMeteorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9C4481C26F8BC6C00F2C6D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9C4482526F8BC6C00F2C6D5 /* DemoMeteorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9C4481726F8BC6C00F2C6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9C447FE26F8BC6B00F2C6D5 /* DemoMeteor */;
+			targetProxy = E9C4481626F8BC6C00F2C6D5 /* PBXContainerItemProxy */;
+		};
+		E9C4482226F8BC6C00F2C6D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9C447FE26F8BC6B00F2C6D5 /* DemoMeteor */;
+			targetProxy = E9C4482126F8BC6C00F2C6D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9C4480826F8BC6B00F2C6D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C4480926F8BC6B00F2C6D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9C4480D26F8BC6C00F2C6D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9C4480E26F8BC6C00F2C6D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9C4482726F8BC6C00F2C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9C4482826F8BC6C00F2C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9C4482A26F8BC6C00F2C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TG62C289S;
+				INFOPLIST_FILE = DemoMeteor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.DemoMeteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9C4482B26F8BC6C00F2C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TG62C289S;
+				INFOPLIST_FILE = DemoMeteor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.DemoMeteor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9C4482D26F8BC6C00F2C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TG62C289S;
+				INFOPLIST_FILE = DemoMeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.DemoMeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMeteor.app/DemoMeteor";
+			};
+			name = Debug;
+		};
+		E9C4482E26F8BC6C00F2C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TG62C289S;
+				INFOPLIST_FILE = DemoMeteorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.DemoMeteorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoMeteor.app/DemoMeteor";
+			};
+			name = Release;
+		};
+		E9C4483026F8BC6C00F2C6D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TG62C289S;
+				INFOPLIST_FILE = DemoMeteorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.DemoMeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoMeteor;
+			};
+			name = Debug;
+		};
+		E9C4483126F8BC6C00F2C6D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5TG62C289S;
+				INFOPLIST_FILE = DemoMeteorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.DemoMeteorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DemoMeteor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9C447FA26F8BC6B00F2C6D5 /* Build configuration list for PBXProject "DemoMeteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C4482726F8BC6C00F2C6D5 /* Debug */,
+				E9C4482826F8BC6C00F2C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C4482926F8BC6C00F2C6D5 /* Build configuration list for PBXNativeTarget "DemoMeteor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C4482A26F8BC6C00F2C6D5 /* Debug */,
+				E9C4482B26F8BC6C00F2C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C4482C26F8BC6C00F2C6D5 /* Build configuration list for PBXNativeTarget "DemoMeteorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C4482D26F8BC6C00F2C6D5 /* Debug */,
+				E9C4482E26F8BC6C00F2C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9C4482F26F8BC6C00F2C6D5 /* Build configuration list for PBXNativeTarget "DemoMeteorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C4483026F8BC6C00F2C6D5 /* Debug */,
+				E9C4483126F8BC6C00F2C6D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E9AFC3AD26FAE9EA0008592A /* meteordata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E9AFC3B226FAFC390008592A /* meteordata 2.xcdatamodel */,
+				E9AFC3AE26FAE9EA0008592A /* meteordata.xcdatamodel */,
+			);
+			currentVersion = E9AFC3B226FAFC390008592A /* meteordata 2.xcdatamodel */;
+			path = meteordata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E9C447F726F8BC6B00F2C6D5 /* Project object */;
+}

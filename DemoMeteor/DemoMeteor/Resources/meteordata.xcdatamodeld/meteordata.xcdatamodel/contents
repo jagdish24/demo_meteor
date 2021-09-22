@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="18154" systemVersion="20F71" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DB_geolocation" representedClassName="DB_geolocation" syncable="YES" codeGenerationType="class">
+        <attribute name="latitude" optional="YES" attributeType="String"/>
+        <attribute name="longitude" optional="YES" attributeType="String"/>
+        <attribute name="meteorId" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DB_meteor" representedClassName="DB_meteor" syncable="YES" codeGenerationType="class">
+        <attribute name="fall" optional="YES" attributeType="String"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="isfavorite" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="mass" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="nametype" optional="YES" attributeType="String"/>
+        <attribute name="recclass" optional="YES" attributeType="String"/>
+        <attribute name="reclat" optional="YES" attributeType="String"/>
+        <attribute name="reclong" optional="YES" attributeType="String"/>
+        <attribute name="year" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="DB_meteor" positionX="-63" positionY="-18" width="128" height="179"/>
+        <element name="DB_geolocation" positionX="-54" positionY="63" width="128" height="74"/>
+    </elements>
+</model>
